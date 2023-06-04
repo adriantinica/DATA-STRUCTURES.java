@@ -1,4 +1,4 @@
-import java.nio.channels.ClosedSelectorException;
+
 import java.util.Scanner;
 public class SimpleArraysEx {
 
