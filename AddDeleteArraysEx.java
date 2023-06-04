@@ -48,10 +48,12 @@ public class AddDeleteArraysEx {
 
         data = newLongData;
 
-        for (int i = 0; i < data.length; i++) {
-          System.out.print(data[i]);
-          System.out.print(" ");
+         //Sa se afiseaza prin "foreach" array-ul nou, modificat
+
+        for (int i : newLongData) {
+            System.out.print (i+" ");
         }
+
 
 
 
